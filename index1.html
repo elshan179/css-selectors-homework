@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>CSS Селекторы</title>
+    <style>
+        p {
+            color: blue;
+        }
+
+        .bold {
+            font-weight: bold;
+        }
+
+        #main-title {
+            color: red;
+        }
+
+        h2 {
+            color: green;
+        }
+
+        .highlight {
+            color: orange;
+        }
+
+        #special-heading {
+            color: purple;
+        }
+    </style>
+</head>
+<body>
+
+    <h1 id="main-title">Это главный заголовок</h1>
+
+    <p>Это абзац. Он синий.</p>
+    <p>Ещё один абзац.</p>
+
+    <ul>
+        <li>Обычный элемент списка</li>
+        <li class="bold">Жирный элемент списка</li>
+        <li class="bold">Ещё один жирный элемент</li>
+    </ul>
+
+    <h2 id="special-heading" class="highlight">Конфликтующие стили</h2>
+    <p>Этот заголовок демонстрирует приоритет CSS-селекторов.</p>
+
+</body>
+</html>
